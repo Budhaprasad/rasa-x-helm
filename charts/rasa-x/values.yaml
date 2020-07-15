@@ -403,7 +403,7 @@ ingress:
     # kubernetes.io/tls-acme: "true"
   # hosts for this ingress
   hosts:
-    - host: rasax.dealwallet.com
+    - host: gitlab.tsssinfotech.com
       paths:
       - /
   # tls: Secrets for the certificates
