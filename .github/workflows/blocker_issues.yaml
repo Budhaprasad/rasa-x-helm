@@ -6,7 +6,7 @@ jobs:
   manage-blockers:
     runs-on: self-hosted
     steps:
-      - name: Get issue details
+      - name: Get github issue details
         uses: actions/github-script@v7
         with:
           script: |
